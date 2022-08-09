@@ -1,0 +1,70 @@
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav_container .brand_logo img{
+     height: 70%;
+     width: 70%;
+}
+
+.nav_container .nav_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    flex-grow: 0.2;
+}
+.list-item {
+    font-size: 22px;
+    margin: 0 30px;
+    color: #3E4794;
+}
+.nav_btn{
+    font-size: 20px;
+    padding: 5px 25px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #965CF2 , #FF8ADC);
+}
+.list-item{
+    font-size: 20px;
+}
+.main_part{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    
+}
+.left_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 700px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.main_heading{
+    color: #3E4794;
+    font-size: 100px;
+}
+.sub-heading {
+    color: #3E4794;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 400px;
+    margin-top: 40px;
+}
+.main_part_btn{
+    font-size: 30px;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #965CF2 , #FF8ADC);
+    margin-top: 50px;
+}
